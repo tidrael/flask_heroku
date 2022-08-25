@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro';
-    color: #84C69B;
+    /* color: #84C69B; */
+    color: #fff;
     background-color: #1A2F4B;
 }
 
@@ -108,7 +109,7 @@ p {
 
 /* Section */
 .main-wrapper {
-    width: 68.75%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -121,7 +122,6 @@ p {
 .main-wrapper-first {
     width: 68.75%;
     margin: 0 auto;
-    margin-top: 6rem;
 }
 
 @media (min-width: 1200px) {
@@ -131,6 +131,14 @@ p {
 }
 
 .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.banner-container {
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -207,7 +215,6 @@ p {
     top:0;
     width: 100%;
     z-index: 1;
-
 }
 
 
@@ -244,22 +251,21 @@ p {
 /* Title */
 
 #title {
-    background-image: url("../images/title-bg.jpg");
+    /* background-image: url("../images/title-bg.jpg"); */
     background-size: cover;
     background-color: transparent;
     text-align: center;
     color: white;
-    /* padding: 10% 24% 7%; */
-    margin-top: 7%;
     width: 80%;
     margin:auto;
     margin-top: 8rem;
-    /* margin-left: 8%;
-    margin-right: 8%; */
+    margin-bottom: 6rem;
+
 }
 
 .overlay-bg {
-    opacity: .8;
+    opacity: .9;
+    height: 1000px;
     background-image: -moz-linear-gradient(0deg,#1A2F4B 0%,#28475C 50%);
     background-image: -webkit-linear-gradient(0deg,#1A2F4B 0%,#28475C 50%);
     background-image: -ms-linear-gradient(0deg,#1A2F4B 0%,#28475C 50%);
@@ -395,7 +401,7 @@ p {
 /* Contact area */
 
 .contact-area {
-    background: url(../images/title-bg.jpg) no-repeat center center/cover;
+    /* background: url(../images/title-bg.jpg) no-repeat center center/cover; */
     color: #fff;
 }
 
