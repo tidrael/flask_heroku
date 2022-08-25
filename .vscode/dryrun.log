@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dongtrieu/projects/heroku/flask_heroku'
+echo "\n⚡  \033[1mThis might take a minute\033[0m  ⚡\n"
+make clone
+make update
+make js
+rm -rf {bootstrap,update}
+echo "\n⚡  \033[1mSuccessfully updated\033[0m  ⚡\n"
+make: Leaving directory '/home/dongtrieu/projects/heroku/flask_heroku'
+ 
