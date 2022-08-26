@@ -139,7 +139,7 @@ p {
 }
 
 .banner-container {
-    margin-right: auto;
+    mar ight: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -250,7 +250,7 @@ p {
 
 /* Title */
 
-#title {
+#title-banner {
     /* background-image: url("../images/title-bg.jpg"); */
     background-size: cover;
     background-color: transparent;
@@ -301,8 +301,9 @@ p {
 
 /* Trait */
 
-.featured-area {
+.blog-area {
     background-color: white;
+    color: #1A2F4B;
 }
 
 .pb-100 {
@@ -330,58 +331,37 @@ p {
 }
 
 /* service */
-.service-area {
+.skills-area {
     padding: 90px 0 120px 0;
     background: #fff;
 }
 
-.service-area .single-service {
-    height: 400px;
-    color: #fff;
-    position: relative;
-    border-radius: 3px;
-    overflow: hidden;
-    margin-top: 30px;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-    background-position: center center!important;
+.skill-card {
+    width: 10rem;
+    padding: 10px auto;
+    color: #2F8886;
+    border-color: white;
+    border-width: thick;
+    background-color: transparent;
+    margin: 5% 5%;
+    border-radius: 10%;
 }
 
-.service-area .single-service .overlay-content {
-    opacity: .8;
-    padding: 30px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    -webkit-justify-content: end;
-    -moz-justify-content: end;
-    justify-content: end;
-    -webkit-transition: all .3s ease 0s;
-    -moz-transition: all .3s ease 0s;
-    -o-transition: all .3s ease 0s;
-    transition: all .3s ease 0s;
-    transition-timing-function: cubic-bezier(.39,.92,.69,.65);
-    transform: scaleY(0);
-    transform-origin: top;
+.card-img {
+    background-color: transparent;
+    /* border-radius: 50%; */
+    width: 50px;
+    padding: 20px auto;
 }
 
-.p1-gradient-bg, .primary-btn:after, .overlay-bg, .owl-dot.active, .service-area .single-service .overlay-content {
+
+.p1-gradient-bg, .primary-btn:after, .overlay-bg, .owl-dot.active, .skills-area .single-service .overlay-content {
     background-image: -moz-linear-gradient(0deg,#1A2F4B 0%,#28475C 50%);
     background-image: -webkit-linear-gradient(0deg,#1A2F4B 0%,#28475C 50%);
     background-image: -ms-linear-gradient(0deg,#1A2F4B 0%,#28475C 50%);
 }
 
-.service-area .single-service .overlay-content h4 {
+.skills-area .single-service .overlay-content h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
@@ -482,6 +462,8 @@ p {
 .education-content {
     padding: 1rem 1rem 1rem;
     text-align: right;
+    background-color: #1A2F4B;
+    background-blend-mode: darken;
 }
 /* Pricing */
 
@@ -501,30 +483,11 @@ p {
 }
 
 
-/* Call to action */
-
-#cta {
-    background-color: #ff4c68;
-    padding: 100px;
-    text-align: center;
-    color: white;
-    font-family: "Source Sans Pro";
-    font-weight: 600;
-}
-
-.cta-text {
-    width: 70%;
-    margin: auto;
-    font-size: 3rem;
-    padding-bottom: 50px;
-}
-
-
 /* Footer */
 
 .footer-area {
-    background: #222;
-    padding: 100px 0;
+    background-color: #28475C;
+    padding: 40px;
     margin-bottom: 6rem;
 }
 
@@ -605,7 +568,7 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
 
 /* Media */
 @media (max-width: 990px) {
-    #title {
+    #title-banner {
         text-align: center;
     }
 
