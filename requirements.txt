@@ -2,7 +2,14 @@
 # Flask
 # ----------------------
 flask
+requests
 
+
+# ----------------------
+# Image processing
+# ----------------------
+# pillow
+# torchvision
 
 # ----------------------
 # Testing
