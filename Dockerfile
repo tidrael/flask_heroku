@@ -22,5 +22,5 @@ EXPOSE 8000
 # CMD [ "python", "app.py" ]
 # CMD exec python -m flask
 # with gunicorn
-# CMD exec gunicorn --workers 1 app:app
-CMD exec gunicorn --bind :8080 --workers 1 app:app
+CMD exec gunicorn --workers 1 app:app
+# CMD exec gunicorn --bind :8080 --workers 1 app:app

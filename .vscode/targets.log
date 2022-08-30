@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 29 09:18:26 2022
+# Make data base, printed on Tue Aug 30 09:45:22 2022
 
 # Variables
 
@@ -59,7 +57,7 @@ CONDA_PREFIX = /home/dongtrieu/anaconda3
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-fb201fe5-9440-4b49-8777-a5bfafc0ad78.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-515eefba-4957-44e6-b8a1-9a8ee01db8c4.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -193,7 +191,7 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2080, inode 432289): 15 files, no impossibilities.
+# . (device 2096, inode 432289): 15 files, no impossibilities.
 
 # 15 files, no impossibilities in 1 directories.
 
@@ -277,13 +275,15 @@ js:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 206 B / avg = 8 B
-# current buf: size = 8162 B / used = 206 B / count = 24 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 212 B / avg = 8 B
+# current buf: size = 8162 B / used = 212 B / count = 24 / avg = 8 B
 
  
+make: *** No rule to make target 'all'.  Stop.
+
 # strcache performance: lookups = 32 / hit rate = 25%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/32=3%
-# Finished Make data base on Mon Aug 29 09:18:26 2022
+# Finished Make data base on Tue Aug 30 09:45:22 2022
 
  
