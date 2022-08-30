@@ -139,7 +139,7 @@ p {
 }
 
 .banner-container {
-    mar ight: auto;
+    margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -170,40 +170,6 @@ p {
     }
 } */
 
-
-.white-container {
-    background-color: white;
-    /* background-color: #f6f5f5; */
-    padding: 3.5rem;
-    text-align: center;
-    font-weight: 400;
-    position: relative;
-    color: #2F8886;
-    margin: auto;
-
-}
-
-.light-container {
-    background-color: #28475C;
-    padding: 3.5rem;
-    text-align: center;
-    font-weight: 400;
-    position: relative;
-    width: 80%;
-    margin: auto;
-
-}
-
-.dark-container {
-    background-color: #1A2F4B;
-    padding: 3.5rem;
-    text-align: center;
-    font-weight: 400;
-    position: relative;
-    width: 80%;
-    margin: auto;
-
-}
 
 
 /* Navigation Bar */
@@ -287,7 +253,7 @@ p {
 
 .wrapper {
     position: relative;
-    background-color: #30475e9f;
+    background-color: rgb(249, 249, 251);
     padding: 7% 0;
 }
 
@@ -297,11 +263,93 @@ p {
     opacity: 1;
 }
 
+/* Languages */
+.languages {
+    /* padding: 90px 0 120px 0; */
+    background-color: rgb(249, 249, 251);
+    color: black;
+}
 
+.lang-list {
+    padding: 0;
+    margin: 0 0 1em;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.lang-list li {
+    width: 110px;
+    text-align: center;
+    color: black;
+}
+
+.lang-list .python {
+    background-image: url("../images/python-logo.png");
+    background-size: 37px 40px;
+}
+
+.lang-list .pytorch {
+    background-image: url("../images/pytorch-logo.png");
+    background-size: 37px 40px;
+}
+
+.lang-list .hf {
+    background-image: url("../images/huggingface-logo.png");
+    background-size: 37px 40px;
+}
+
+.lang-list .flask {
+    background-image: url("../images/flask-logo.png");
+    background-size: 37px 40px;
+}
+
+.lang-list .gunicorn {
+    background-image: url("../images/gunicorn-logo.png");
+    background-size: 37px 40px;
+}
+
+.lang-list .postgres {
+    background-image: url("../images/PostgreSQL-logo.png");
+    background-size: 37px 40px;
+}
+
+.lang-list .gcloud {
+    background-image: url("../images/gcloud-logo.png");
+    background-size: 37px 40px;
+}
+
+
+.lang-list a {
+    width: 90px;
+    margin: 10px 5px 5px;
+    padding: 10px;
+    padding-top: 70px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center top 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #3F3F44;
+    transition: .2s background-color ease-in-out, .2s box-shadow ease-in-out, .2s border-color ease-in-out;
+}
 
 /* Trait */
 
 .blog-area {
+    /* background-color: #28475C; */
     background-color: white;
     color: #1A2F4B;
 }
